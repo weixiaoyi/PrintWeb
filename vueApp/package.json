@@ -1,7 +1,7 @@
 {
   "name": "print-web",
   "version": "1.0.0",
-  "description": "WebPrint Expert Vue Frontend - 基于 Vue.js 3 的 Web 打印专家前端界面，支持现代化 UI 和打印管理",
+  "description": "WebPrint Expert Vue Frontend - Modern web printing UI for printer management and print control | 基于 Vue.js 3 的 Web 打印专家前端界面",
   "author": "中国浙江杭州把把胡科技公司",
   "mobile": "18353268994",
   "license": "Apache-2.0",

@@ -1,0 +1,11 @@
+# Set repository language to JavaScript
+*.js linguist-detectable=true
+*.vue linguist-detectable=true
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.scss linguist-detectable=false
+
+# Documentation
+README.MD linguist-documentation=false
+README_CN.MD linguist-documentation=false
+*.md linguist-documentation=true

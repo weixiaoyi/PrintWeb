@@ -1,212 +1,214 @@
-# WebPrintingExpert - Web 打印专家 | Web Printing Expert
+# WebPrintingExpert - Professional Web Printing Solution
 
 <div align="center">
 
-**专业的 JavaScript 页面打印解决方案 | Professional JavaScript Page Printing Solution**
+**Professional JavaScript Page Printing Solution | 专业的 JavaScript 页面打印解决方案**
 
-支持 HTML 转 PDF | 打印机管理 | WebSocket 打印 | Node.js/Vue/React 打印
+HTML to PDF | Printer Management | WebSocket Printing | Node.js/Vue/React Printing
+
+[English](README.MD) | [简体中文](README_CN.MD)
 
 </div>
 
 ---
 
-> **关键词**: web printing, pdf printing, html to pdf, silent printing, printer management, print automation, remote printing, websocket printing, batch printing, print queue, printer control, document printing, print server, network printing, 网页打印, PDF打印, 静默打印, 批量打印, 远程打印, 打印服务, 打印专家
+> **Keywords**: web printing, pdf printing, html to pdf, silent printing, printer management, print automation, remote printing, websocket printing, batch printing, print queue, printer control, document printing, print server, network printing, pdf generator, printing service, web to pdf, playwright, sumatrapdf, playwright pdf, electron printing
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010+-blue.svg)](https://www.microsoft.com/windows)
-[![Languages](https://img.shields.io/badge/Languages-中文%20%7C%20English-green.svg)](http://webprintpdf.com)
+[![Languages](https://img.shields.io/badge/Languages-English%20%7C%20中文-green.svg)](http://webprintpdf.com)
 [![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
 [![Electron](https://img.shields.io/badge/Electron-36.3.1-blue.svg)](https://electronjs.org/)
 [![Vue.js](https://img.shields.io/badge/Vue.js-3.5.8-green.svg)](https://vuejs.org/)
 
-## 📖 项目简介
+## 📖 Introduction
 
-WebPrintingExpert 是一个基于 Electron 和 Vue.js 开发的 Windows 桌面应用程序，专门用于解决 Web 页面打印问题。该软件通过 WebSocket 连接提供强大的 Web 打印服务，支持多种格式的文档打印，包括 HTML、PDF、图片等。软件集成了 Playwright HTML 渲染引擎和 SumatraPDF 打印工具，提供智能化的打印解决方案，并支持中文和英文双语界面。
+WebPrintingExpert is a Windows desktop application built with Electron and Vue.js, specifically designed to solve web page printing challenges. The software provides powerful web printing services through WebSocket connections, supporting multiple document formats including HTML, PDF, and images. It integrates the Playwright HTML rendering engine and SumatraPDF printing tool to deliver intelligent printing solutions with bilingual support (English and Chinese).
 
-> ⚠️ **注意**: 本软件仅支持 Windows 10 或更高版本的操作系统
+> ⚠️ **Note**: This software only supports Windows 10 and above
 
-**官方网站：** [http://webprintpdf.com](http://webprintpdf.com)
+**Official Website:** [http://webprintpdf.com](http://webprintpdf.com)
 
-**软件下载：** [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
+**Download:** [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
 
-## 🖼️ 软件界面
+## 🖼️ Software Interface
 
-### 基础信息界面
-![基础信息](ReadMeImages/1BasicInfo.png)
-*软件主界面，显示基本信息和系统状态*
+### Basic Information
+![Basic Info](ReadMeImages/1BasicInfo.png)
+*Main interface showing basic information and system status*
 
-### 打印机管理
-![打印机管理](ReadMeImages/2Printers.png)
-*打印机配置和管理界面，支持多种打印机设置*
+### Printer Management
+![Printer Management](ReadMeImages/2Printers.png)
+*Printer configuration and management interface with multiple printer settings support*
 
-### 打印日志
-![打印日志](ReadMeImages/3Logs.png)
-*详细的打印操作日志，便于追踪和调试*
+### Print Logs
+![Print Logs](ReadMeImages/3Logs.png)
+*Detailed print operation logs for tracking and debugging*
 
-### 运行示例
-![运行示例](ReadMeImages/4RunExamples.png)
-*软件运行示例和功能演示*
+### Running Examples
+![Running Examples](ReadMeImages/4RunExamples.png)
+*Software running examples and feature demonstrations*
 
-### 联系我们
-![联系我们](ReadMeImages/5ContactUs.png)
-*联系方式和帮助信息界面*
+### Contact Us
+![Contact Us](ReadMeImages/5ContactUs.png)
+*Contact information and help interface*
 
-## ✨ 主要功能
+## ✨ Key Features
 
-- 🖨️ **Web 页面打印** - 支持各种 Web 页面的高质量打印
-- 📄 **PDF 文档处理** - 支持 PDF 文档的查看、打印和转换
-- 🖼️ **图片打印** - 支持多种图片格式的打印
-- 🔧 **打印机管理** - 智能识别和管理系统打印机
-- 📊 **打印日志** - 详细的打印操作记录和统计
-- 🌐 **WebSocket 服务** - 提供稳定的 WebSocket 连接服务
-- 🎨 **现代化界面** - 基于 Vue.js 3 的现代化用户界面
-- ⚡ **高性能** - 基于 Electron 的原生桌面应用性能
-- 🌍 **多语言支持** - 支持中文和英文界面
-- 🎭 **HTML 渲染引擎** - 基于 Playwright 的 HTML 渲染和 PDF 输出引擎
-- 📖 **PDF 打印输出** - 集成 SumatraPDF 进行 PDF 文件打印
+- 🖨️ **Web Page Printing** - High-quality printing for various web pages
+- 📄 **PDF Document Processing** - View, print, and convert PDF documents
+- 🖼️ **Image Printing** - Support for multiple image format printing
+- 🔧 **Printer Management** - Smart recognition and management of system printers
+- 📊 **Print Logging** - Detailed print operation records and statistics
+- 🌐 **WebSocket Service** - Stable WebSocket connection service
+- 🎨 **Modern UI** - Modern user interface based on Vue.js 3
+- ⚡ **High Performance** - Native desktop application performance with Electron
+- 🌍 **Multilingual Support** - English and Chinese interface support
+- 🎭 **HTML Rendering Engine** - Playwright-based HTML rendering and PDF output engine
+- 📖 **PDF Print Output** - Integrated SumatraPDF for PDF file printing
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 方式一：直接下载使用
+### Option 1: Direct Download (Recommended)
 
-**推荐** - 下载 Windows 桌面版客户端，支持所有功能：
+Download the Windows desktop client with full feature support:
 
-- **下载地址**: [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
-- **文件大小**: 约 100MB
-- **系统要求**: Windows 10 或更高版本，至少 4GB RAM
-- **安装方式**: 下载 exe 文件后直接运行安装程序
+- **Download URL**: [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
+- **File Size**: ~100MB
+- **Requirements**: Windows 10 or above, at least 4GB RAM
+- **Installation**: Download the exe file and run the installer directly
 
-### 方式二：开发环境搭建
+### Option 2: Development Setup
 
-如果您需要从源码构建或参与开发：
+For building from source or contributing to development:
 
-#### 环境要求
-- Node.js 16.0 或更高版本
-- npm 或 yarn 包管理器
-- **Windows 10 或更高版本** （仅支持 Windows 系统）
+#### Requirements
+- Node.js 16.0 or higher
+- npm or yarn package manager
+- **Windows 10 or above** (Windows only)
 
-#### 安装依赖
+#### Install Dependencies
 
 ```bash
-# 安装 Vue 应用依赖
+# Install Vue app dependencies
 npm run install-vue
 
-# 安装 Electron 应用依赖
+# Install Electron app dependencies
 npm run install-electron
 ```
 
-#### 开发模式
+#### Development Mode
 
 ```bash
-# 启动开发环境（同时启动 Vue 前端和 Electron 应用）
+# Start development environment (Vue frontend + Electron app)
 npm run start
 
-# 或者分别启动
-npm run start-vue      # 启动 Vue 开发服务器
-npm run start-electron # 启动 Electron 应用
+# Or start separately
+npm run start-vue      # Start Vue dev server
+npm run start-electron # Start Electron app
 ```
 
-#### 构建发布
+#### Build for Production
 
 ```bash
-# 构建生产版本
+# Build production version
 npm run package
 ```
 
-## 📦 项目结构
+## 📦 Project Structure
 
 ```
 PrintWeb/
-├── electronApp/          # Electron 主进程代码
-│   ├── server/           # WebSocket 服务器
-│   ├── pdf/             # PDF 处理模块
-│   └── assets/          # 应用资源文件
-├── vueApp/              # Vue.js 前端应用
-│   ├── src/             # 源代码
-│   ├── public/          # 静态资源
-│   └── dist/            # 构建输出
-├── core/                # 核心功能模块
-│   ├── base/            # 基础工具类
-│   ├── electron/        # Electron 相关功能
-│   ├── generateHtml/    # HTML 生成器
-│   ├── generatePdf/     # PDF 生成器
-│   └── printPdf/        # PDF 打印模块
-├── appAsarUnpack/       # 应用解包文件
-└── dist/                # 最终构建输出
+├── electronApp/          # Electron main process code
+│   ├── server/           # WebSocket server
+│   ├── pdf/             # PDF processing module
+│   └── assets/          # Application resources
+├── vueApp/              # Vue.js frontend application
+│   ├── src/             # Source code
+│   ├── public/          # Static assets
+│   └── dist/            # Build output
+├── core/                # Core functionality modules
+│   ├── base/            # Base utility classes
+│   ├── electron/        # Electron-related features
+│   ├── generateHtml/    # HTML generator
+│   ├── generatePdf/     # PDF generator
+│   └── printPdf/        # PDF printing module
+├── appAsarUnpack/       # Unpacked app files
+└── dist/                # Final build output
 ```
 
-## 🔧 技术栈
+## 🔧 Technology Stack
 
-### 前端技术
-- **Vue.js 3.5.8** - 渐进式 JavaScript 框架
-- **Ant Design Vue 4.2.6** - 企业级 UI 组件库
-- **Vite 5.3.1** - 快速的前端构建工具
+### Frontend
+- **Vue.js 3.5.8** - Progressive JavaScript framework
+- **Ant Design Vue 4.2.6** - Enterprise-level UI component library
+- **Vite 5.3.1** - Fast frontend build tool
 
-### 后端技术
-- **Electron 36.3.1** - 跨平台桌面应用框架
-- **Express 4.18.2** - Web 应用框架
-- **WebSocket** - 实时通信协议
-- **PDF-lib 1.17.1** - PDF 文档处理库
-- **Playwright 1.54.2** - HTML 渲染和 PDF 输出页面引擎
-- **SumatraPDF** - PDF 文件打印输出工具
+### Backend
+- **Electron 36.3.1** - Cross-platform desktop application framework
+- **Express 4.18.2** - Web application framework
+- **WebSocket** - Real-time communication protocol
+- **PDF-lib 1.17.1** - PDF document processing library
+- **Playwright 1.54.2** - HTML rendering and PDF output page engine
+- **SumatraPDF** - PDF file printing output tool
 
-### 开发工具
-- **ESLint** - 代码质量检查
-- **Prettier** - 代码格式化
-- **Electron Builder** - 应用打包工具
+### Development Tools
+- **ESLint** - Code quality checker
+- **Prettier** - Code formatter
+- **Electron Builder** - Application packaging tool
 
-## 📋 使用说明
+## 📋 Usage Guide
 
-1. **启动应用** - 运行 `npm run start` 启动应用
-2. **连接服务** - 应用会自动启动 WebSocket 服务
-3. **选择打印机** - 在设置中选择要使用的打印机
-4. **发送打印任务** - 通过 WebSocket 或 API 发送打印任务
-5. **查看日志** - 在日志页面查看打印操作记录
+1. **Launch Application** - Run `npm run start` to start the application
+2. **Connect Service** - Application will automatically start WebSocket service
+3. **Select Printer** - Choose the printer to use in settings
+4. **Send Print Jobs** - Send print jobs via WebSocket or API
+5. **View Logs** - Check print operation records in the logs page
 
-## 🔌 API 接口
+## 🔌 API Interface
 
-### WebSocket 连接
-- **连接地址**: `ws://localhost:端口号`
-- **协议**: 支持自定义打印协议
+### WebSocket Connection
+- **Connection URL**: `ws://localhost:port`
+- **Protocol**: Custom printing protocol support
 
 ### HTTP API
-- **基础 URL**: `http://localhost:端口号/api`
-- **文档**: 详见 API 文档
+- **Base URL**: `http://localhost:port/api`
+- **Documentation**: See API documentation
 
-## 🤝 贡献指南
+## 🤝 Contributing
 
-我们欢迎所有形式的贡献，包括但不限于：
+We welcome all forms of contributions, including but not limited to:
 
-- 🐛 报告 Bug
-- ✨ 提出新功能建议
-- 📝 改进文档
-- 🔧 提交代码修复
+- 🐛 Bug reports
+- ✨ Feature requests
+- 📝 Documentation improvements
+- 🔧 Code fixes
 
-## 📄 许可证
+## 📄 License
 
-本项目采用 Apache License 2.0 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 相关链接
+## 🔗 Related Links
 
-- **官方网站**: [http://webprintpdf.com](http://webprintpdf.com)
-- **软件下载**: [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
-- **客户端库**: [web-print-pdf](https://github.com/weixiaoyi/web-print-pdf)
-- **问题反馈**: [GitHub Issues](https://github.com/your-username/PrintWeb/issues)
+- **Official Website**: [http://webprintpdf.com](http://webprintpdf.com)
+- **Download**: [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
+- **Client Library**: [web-print-pdf](https://github.com/weixiaoyi/web-print-pdf)
+- **Issue Tracker**: [GitHub Issues](https://github.com/your-username/PrintWeb/issues)
 
-## 📞 联系我们
+## 📞 Contact Us
 
-- **公司**: 中国浙江杭州把把胡科技公司
-- **官网**: [http://webprintpdf.com](http://webprintpdf.com)
-- **邮箱**: 通过官网联系我们
-
----
-
-⭐ 如果这个项目对您有帮助，请给我们一个 Star！
+- **Company**: Hangzhou BaBaHu Technology Co., Ltd.
+- **Website**: [http://webprintpdf.com](http://webprintpdf.com)
+- **Email**: Contact us through the official website
 
 ---
 
-## 🏷️ Topics 标签建议
+⭐ If this project helps you, please give us a Star!
 
-在 GitHub 仓库设置中添加以下 Topics 标签以提高搜索可见性：
+---
 
-`web-printing` `pdf-printing` `html-to-pdf` `printing-service` `silent-printing` `printer-management` `print-automation` `remote-printing` `websocket-printing` `batch-printing` `print-queue` `printer-control` `document-printing` `web-to-pdf` `pdf-generator` `print-server` `network-printing` `cloud-printing` `print-monitoring` `print-logging`
+## 🏷️ GitHub Topics Recommendations
+
+Add the following topics to your GitHub repository settings to improve search visibility:
+
+`web-printing` `pdf-printing` `html-to-pdf` `printing-service` `silent-printing` `printer-management` `print-automation` `remote-printing` `websocket-printing` `batch-printing` `print-queue` `printer-control` `document-printing` `web-to-pdf` `pdf-generator` `print-server` `playwright` `sumatrapdf` `playwright-pdf` `electron-printing` `electron` `vue`
