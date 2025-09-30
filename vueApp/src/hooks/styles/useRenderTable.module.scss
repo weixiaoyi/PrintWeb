@@ -1,0 +1,16 @@
+.tableContainer{
+  overflow: auto;
+}
+.table{
+  width: max-content;
+  tr {
+    min-height: 20px;
+  }
+  th{
+    color:rgba(0, 0, 0, 0.85);
+    background: #fafafa;
+  }
+  td,th{
+    border:0.2px solid #f0f0f0; padding:16px;
+  }
+}

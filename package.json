@@ -1,0 +1,128 @@
+{
+  "name": "print-web",
+  "productName": "WebPrintingExpert",
+  "version": "0.0.1",
+  "description": "WebPrint Expert, a client-side tool dedicated to web printing",
+  "author": "中国浙江杭州把把胡科技公司",
+  "mobile": "18353268994",
+  "main": "main.js",
+  "license": "MIT",
+  "puppetterChrome": "node_modules,puppeteer,_cache,chrome,win64-1069273,chrome-win,chrome.exe",
+  "publishUrl": "http://webprintpdf.com/api/electron/clientAppUpdate/webPrintExpert",
+  "scripts": {
+    "install-vue": "cd ./vueApp && yarn install",
+    "install-electron": "yarn install",
+    "start-vue": "cd ./vueApp && npm run dev",
+    "start-electron": "cross-env NODE_ENV=development electron .",
+    "package-vue": "cd ./vueApp && npm run build:prod",
+    "package-electron": "electron-builder build --publish never",
+    "start": "npm run start-vue | npm run start-electron",
+    "package": "npm run package-vue && npm run package-electron"
+  },
+  "build": {
+    "productName": "WebPrintingExpert",
+    "asar": true,
+    "asarUnpack": [
+      "appAsarUnpack"
+    ],
+    "buildVersion": "1",
+    "artifactName": "${productName}_${os}_${version}.${buildVersion}.${ext}",
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "http://webprintpdf.com/api/electron/clientAppUpdate/webPrintExpert",
+        "useMultipleRangeRequest": false
+      }
+    ],
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "appAsarUnpack",
+      "appSetting",
+      "electronApp",
+      "core",
+      "logs",
+      "WebSubProcess/**/*",
+      "package.json",
+      "webPrinter.json",
+      "vueApp/dist/**/*",
+      "vueApp/public/**/*",
+      "npm-start.js"
+    ],
+    "mac": {
+      "type": "distribution",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "target": [
+        "dmg"
+      ]
+    },
+    "win": {
+      "icon": "electronApp/assets/icon.ico",
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "language": "2052",
+      "perMachine": true,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "differentialPackage": false,
+      "installerIcon": "./electronApp/assets/icon.ico",
+      "uninstallerIcon": "./electronApp/assets/icon.ico",
+      "installerHeader": "./electronApp/assets/icon.ico",
+      "installerHeaderIcon": "./electronApp/assets/icon.ico"
+    },
+    "directories": {
+      "buildResources": "build",
+      "output": "dist"
+    },
+    "extraResources": [
+      "./assets/**"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "electron": "36.3.1",
+    "electron-builder": "26.0.14",
+    "node-notifier": "10.0.1"
+  },
+  "dependencies": {
+    "@pdf-lib/fontkit": "1.1.1",
+    "adm-zip": "0.5.10",
+    "axios": "1.8.2",
+    "cookie-parser": "^1.4.7",
+    "dayjs": "^1.11.11",
+    "electron-log": "5.4.0",
+    "electron-store": "8.1.0",
+    "electron-updater": "6.6.3",
+    "express": "4.18.2",
+    "express-ws": "5.0.2",
+    "file-type": "21.0.0",
+    "form-data": "4.0.0",
+    "fs-extra": "11.3.0",
+    "get-port": "7.1.0",
+    "got": "14.4.7",
+    "iconv-lite": "0.6.3",
+    "jimp": "1.6.0",
+    "js-base64": "3.7.7",
+    "jschardet": "3.1.3",
+    "lodash": "4.17.21",
+    "module-alias": "2.2.3",
+    "multer": "2.0.1",
+    "node-machine-id": "1.1.12",
+    "nzh": "1.0.12",
+    "pdf-lib": "1.17.1",
+    "pidusage": "4.0.1",
+    "playwright": "1.54.2",
+    "send": "1.2.0",
+    "terminate": "2.5.0",
+    "tough-cookie": "5.1.2",
+    "unzipper": "0.12.3",
+    "winston": "3.17.0",
+    "winston-daily-rotate-file": "5.0.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "requiredFilesUrl": {
+    "printPdfExe": {
+      "windows": {
+        "x64": [
+          "https://files2.sumatrapdfreader.org/software/sumatrapdf/rel/3.5.2/SumatraPDF-3.5.2-64.zip",
+          "http://webprintpdf.com/api/fileCenter/webPrintExpert/fileCenterFileDownload/SumatraPDF-3.5.2-64.zip"
+        ],
+        "arm64": [
+          "https://files2.sumatrapdfreader.org/software/sumatrapdf/rel/3.5.2/SumatraPDF-3.5.2-arm64.zip",
+          "http://webprintpdf.com/api/fileCenter/webPrintExpert/fileCenterFileDownload/SumatraPDF-3.5.2-arm64.zip"
+        ],
+        "ia32": [
+          "https://files2.sumatrapdfreader.org/software/sumatrapdf/rel/3.5.2/SumatraPDF-3.5.2.zip",
+          "http://webprintpdf.com/api/fileCenter/webPrintExpert/fileCenterFileDownload/SumatraPDF-3.5.2.zip"
+        ]
+      },
+      "macOs": {
+      },
+      "linux": {
+      }
+    },
+    "chromeExe": {
+      "windows": {
+        "x64": [
+          "https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1169/chromium-headless-shell-win64.zip",
+          "https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/chromium/1169/chromium-headless-shell-win64.zip",
+          "https://cdn.playwright.dev/builds/chromium/1169/chromium-headless-shell-win64.zip",
+          "http://webprintpdf.com/api/fileCenter/webPrintExpert/fileCenterFileDownload/chromium-headless-shell-win64.zip"
+        ],
+        "arm64": [
+          "https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1169/chromium-headless-shell-win64.zip",
+          "https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/chromium/1169/chromium-headless-shell-win64.zip",
+          "https://cdn.playwright.dev/builds/chromium/1169/chromium-headless-shell-win64.zip",
+          "http://webprintpdf.com/api/fileCenter/webPrintExpert/fileCenterFileDownload/chromium-headless-shell-win64.zip"
+        ],
+        "ia32": [
+          "https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1169/chromium-headless-shell-win64.zip",
+          "https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/chromium/1169/chromium-headless-shell-win64.zip",
+          "https://cdn.playwright.dev/builds/chromium/1169/chromium-headless-shell-win64.zip",
+          "http://webprintpdf.com/api/fileCenter/webPrintExpert/fileCenterFileDownload/chromium-headless-shell-win64.zip"
+        ]
+      },
+      "macOs": {
+      },
+      "linux": {
+      }
+    }
+  }
+}

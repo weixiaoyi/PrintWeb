@@ -1,0 +1,12 @@
+a[disabled='true'] {
+    pointer-events: none;
+    cursor: not-allowed;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+a[disabled='false'] {
+    cursor: pointer !important;
+    color: #316EFE !important;;
+}
+
+

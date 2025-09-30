@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebPrint</title>
+    <script type="text/javascript">
+      window._isPrinting = true
+    </script>
+    <style>
+      body {}
+      ._pageBreak_ {
+        page-break-before: always;
+        page-break-after: always;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">_%content%_</div>
+  </body>
+</html>

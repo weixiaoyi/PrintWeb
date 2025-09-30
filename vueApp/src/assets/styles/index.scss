@@ -1,0 +1,60 @@
+@import "./ant-desgin-vue.scss";
+
+body {
+  height: 100%;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.operation-divider {
+  padding-right: 20px;
+
+  a + a,
+  a + ._span,
+  ._span + ._span {
+    margin-left: 10px;
+  }
+
+  a.warn {
+    color: $red !important;
+  }
+
+  a.green {
+    color: $green;
+  }
+
+  a {
+    color: $blue;
+  }
+
+  a[disabled="true"] {
+    pointer-events: none;
+    cursor: not-allowed;
+    color: rgba(0, 0, 0, 0.25) !important;
+  }
+
+  a[disabled="false"] {
+    cursor: pointer !important;
+  }
+}
+
+

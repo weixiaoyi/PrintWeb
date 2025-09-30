@@ -1,0 +1,13 @@
+const record = require("@/core/base/Record")
+
+module.exports = async (req, res, next) => {
+    try {
+        const results = await record.queryHtmlRecord(req.body)
+        return res.json({
+            data: results,
+            success: true,
+        });
+    } catch (err) {
+        next(err);
+    }
+};

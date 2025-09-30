@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="page">
+    <div class="nav">
+        <div style="text-align: center"><span style="text-decoration: underline">_%proName%_</span>（项目名称）</div>
+        <div style="text-align: center;margin-top: 20px">_%projectDesc%_</div>
+    </div>
+    <div class="top">
+        <div class="header" style="letter-spacing: 5px">_%proType%_文件</div>
+    </div>
+    <div class="bottom">
+        <div class="persons">
+            <div style="margin-bottom: 20px;">投标人：<span style="text-decoration: underline;width:100px">
+                &nbsp;&nbsp;
+                _%organization%_
+                &nbsp;&nbsp;
+            </span>（盖单位章）</div>
+        </div>
+        <div class="date" style="margin-top: 80px;text-align: center">
+            <span style="text-decoration: underline">_%currentYear%_</span> 年
+            <span style="text-decoration: underline">_%currentMonth%_</span> 月
+            <span style="text-decoration: underline">_%currentDay%_</span> 日
+        </div>
+    </div>
+</div>
+</body>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .page{
+        font-size: 25px;
+        height: 100%;
+        padding: 100px 40px;
+    }
+    .top,.bottom {
+        position: absolute;
+        left:0;
+        right:0;
+    }
+    .top{
+        margin-top: 100px;
+    }
+
+    .bottom{
+        bottom: 200px;
+    }
+    .top .header{
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 130px;
+    }
+    .top .project{
+        padding-left: 20%;
+    }
+
+    .bottom .persons {
+        font-size: 18px;
+        margin: 0 auto;
+        width:75%;
+    }
+    .bottom .date{
+    }
+</style>
+<script type="text/javascript">
+</script>
+</html>

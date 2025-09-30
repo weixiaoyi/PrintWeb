@@ -1,0 +1,22 @@
+// 如果没有设置允许的上传文件类型（accept属性），以下是默认可以接收的上传类型
+export default [
+  ".pdf",
+  ".png",
+  ".jpg",
+  ".bmp",
+  ".gif",
+  ".txt",
+  ".doc",
+  ".docx",
+  ".wps",
+  ".xlsx",
+  ".xls",
+  ".zip",
+  ".rar",
+  ".mp4",
+  ".mov",
+  ".wmv",
+  ".rmvb",
+  ".mp3",
+  ".wav",
+];

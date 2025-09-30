@@ -1,0 +1,135 @@
+@import "./variables.module.scss";
+
+// 样式覆盖
+.ant-btn {
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.ant-btn-primary {
+  background: #005AAC;
+}
+
+.ant-row .ant-form-item-row {
+  height: 100%;
+}
+
+.ant-btn-default {
+  color: #666666;
+}
+
+.ant-btn-primary:not(:disabled):hover {
+  background: #3A8BD5;
+}
+
+.ant-btn-primary.ant-btn-background-ghost:not(:disabled):hover {
+  background: #DCEEFF;
+  border: 1px solid #005AAC;
+  color: #005AAC;
+}
+
+.ant-btn-default:not(:disabled):hover {
+  background: #FFFFFF;
+  border: 1px solid #71ACE2;
+  color: #005AAC;
+}
+
+.ant-btn-link,
+.ant-btn-primary.ant-btn-background-ghost {
+  color: $blue;
+}
+
+.ant-btn-primary.ant-btn-background-ghost {
+  border-color: $blue;
+}
+
+.ant-modal {
+  .ant-modal-content {
+    border-radius: 2px;
+  }
+}
+
+.ant-input-affix-wrapper,
+.ant-select-selector,
+.ant-select-dropdown,
+.ant-picker,
+.ant-input-number-input,
+.ant-input-number,
+.ant-input {
+  border-radius: 2px !important;
+}
+
+.ant-table {
+  .ant-table-thead {
+    tr {
+      th {
+        border-radius: 0px !important;
+        background: #EFF0F1;
+        padding: 10px 16px;
+        color: #5D6063;
+      }
+    }
+  }
+
+  .ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before, .ant-table-thead > tr > td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    transform: unset;
+  }
+
+  ._activeRow_ {
+    background: #fafafa;
+
+    .ant-table-cell-fix-right {
+      background: #fafafa;
+
+    }
+  }
+}
+
+.ant-modal .ant-modal-header {
+  margin-bottom: 20px;
+}
+
+.ant-modal .ant-modal-footer {
+  margin-top: 20px;
+}
+
+.ant-form-item {
+  label {
+    font-weight: 400;
+  }
+}
+
+.ant-btn-primary {
+  box-shadow: none;
+}
+
+.rc-virtual-list-scrollbar-show {
+  width: 6px !important;
+}
+
+.rc-virtual-list-scrollbar-thumb {
+  background: #cccccc !important;
+}
+
+.ant-progress .ant-progress-bg {
+  background-color: #005AAC !important;
+}
+
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #005AAC;
+  border-color: #005AAC;
+}
+
+.ant-radio-checked .ant-radio-inner {
+  background-color: #005AAC !important;
+  border-color: #005AAC !important;
+}
+
+.ant-message-custom-content {
+  max-width: 800px;
+}

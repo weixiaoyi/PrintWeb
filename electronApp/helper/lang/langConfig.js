@@ -1,0 +1,23 @@
+module.exports = {
+    生成PDF中: "making",
+    打印中: "printing",
+    下载中: "loading",
+    PDF转换页码中: "trans-nm",
+    PDF转换水印中: "trans-wm",
+    Chrome浏览器组件: "Chrome browser components",
+    打印组件: "Printing components",
+    下载打印核心组件出错: "Error downloading printing core components",
+    下载Chrome核心组件出错: "Error downloading Chrome core components",
+    显示主界面: "Show App",
+    退出: "Quit",
+    'Chrome 核心组件不存在': "Chrome core component is not exist",
+    端口初始化失败: "Port initialization failed",
+    提示: "Prompt",
+    提示内容: "Prompt content",
+    环境异常: "Environmental abnormality",
+    "打印核心组件不存在，请联系技术解决": "The printing core component does not exist. Please contact the technical team for a solution",
+    未授权: "Unauthorized",
+    打印机异常提醒: "Printer Abnormality Warning",
+    '核心组件无法下载，请联系技术解决': "Core components cannot be downloaded, please contact the technical team for assistance",
+    "Chromium核心启动失败，请下载使用标准引擎": "Chromium core startup failed. Please download and use the standard engine"
+};
