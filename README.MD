@@ -29,7 +29,9 @@ WebPrintingExpert is a Windows desktop application built with Electron and Vue.j
 
 **Official Website:** [http://webprintpdf.com](http://webprintpdf.com)
 
-**Download:** [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
+**Download:**
+- Official Site: [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
+- GitHub Releases: [https://github.com/weixiaoyi/PrintWeb/releases](https://github.com/weixiaoyi/PrintWeb/releases)
 
 ## 🖼️ Software Interface
 
@@ -73,7 +75,9 @@ WebPrintingExpert is a Windows desktop application built with Electron and Vue.j
 
 Download the Windows desktop client with full feature support:
 
-- **Download URL**: [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
+- **Download URL**: 
+  - Official Site: [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
+  - GitHub Releases: [https://github.com/weixiaoyi/PrintWeb/releases](https://github.com/weixiaoyi/PrintWeb/releases)
 - **File Size**: ~100MB
 - **Requirements**: Windows 10 or above, at least 4GB RAM
 - **Installation**: Download the exe file and run the installer directly
@@ -191,9 +195,11 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ## 🔗 Related Links
 
 - **Official Website**: [http://webprintpdf.com](http://webprintpdf.com)
-- **Download**: [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
+- **Download**: 
+  - Official Site: [http://webprintpdf.com/downloadApp/](http://webprintpdf.com/downloadApp/)
+  - GitHub Releases: [https://github.com/weixiaoyi/PrintWeb/releases](https://github.com/weixiaoyi/PrintWeb/releases)
 - **Client Library**: [web-print-pdf](https://github.com/weixiaoyi/web-print-pdf)
-- **Issue Tracker**: [GitHub Issues](https://github.com/your-username/PrintWeb/issues)
+- **Issue Tracker**: [GitHub Issues](https://github.com/weixiaoyi/PrintWeb/issues)
 
 ## 📞 Contact Us
 
