@@ -1,3 +1,8 @@
+/**
+ * WebPrintingExpert - Web 打印专家
+ * 基于 Electron + Vue.js + Playwright 的桌面打印应用
+ * 支持 HTML 转 PDF、WebSocket 打印服务、SumatraPDF 打印输出
+ */
 const moduleAlias = require('module-alias')
 const path = require("path");
 const {app, BrowserWindow, Menu, shell} = require("electron");

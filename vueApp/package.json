@@ -1,10 +1,21 @@
 {
   "name": "print-web",
   "version": "1.0.0",
-  "description": "WebPrint Expert, a client-side tool dedicated to web printing",
+  "description": "WebPrint Expert Vue Frontend - 基于 Vue.js 3 的 Web 打印专家前端界面，支持现代化 UI 和打印管理",
   "author": "中国浙江杭州把把胡科技公司",
   "mobile": "18353268994",
-  "license": "MIT",
+  "license": "Apache-2.0",
+  "keywords": [
+    "web-printing",
+    "pdf-printing",
+    "print-management",
+    "printing-ui",
+    "printer-control",
+    "print-queue",
+    "网页打印",
+    "打印管理",
+    "打印控制"
+  ],
   "scripts": {
     "dev": "vite",
     "build:prod": "vite build",
